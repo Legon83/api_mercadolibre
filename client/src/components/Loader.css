@@ -1,0 +1,27 @@
+.loader-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    padding: 157px;
+}
+
+.loader {
+    border: 10px solid #ccc;
+    border-top-color: #26c4f4;
+    border-top-style: groove;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

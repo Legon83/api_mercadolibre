@@ -1,0 +1,31 @@
+.error-container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.error-container img {
+    width: 26vw;
+}
+
+.errorMessage {
+    width: 30vw;
+    text-align: center;
+}
+
+.errorMessage h3, h4 {
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.error-container h3 {
+    color: #767676;
+    font-size: 32px;   
+}
+
+.error-container h4 {
+    color: #898989;
+    font-size: 22px;
+}
